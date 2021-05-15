@@ -20,7 +20,7 @@ class Signin extends React.Component {
     // Basically, fetch is get request but we sign in, we have password => post request to send through the body
     // so in fetch we have second parameter is an object
     onSubmitSignin = () =>{
-        fetch('http://localhost:3000/signin', {
+        fetch('https://guarded-reef-86975.herokuapp.com/signin', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             // send data to backend using body but we have to convert to stringify to use
@@ -31,7 +31,7 @@ class Signin extends React.Component {
         })
         .then(response => response.json())
         .then(result => {
-            if(result){
+            if(result.id){
                 this.props.loadUser(result);
                 this.props.onSignIn('signout'); 
             }

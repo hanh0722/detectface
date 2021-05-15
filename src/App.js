@@ -11,7 +11,7 @@ import Register from './components/register/register';
 
 // we only can communicate with http if we have cors because the browser doesn't trust anything
 const getData = () =>{
-  fetch('http://localhost:3000/').then(response => response.json())
+  fetch('https://guarded-reef-86975.herokuapp.com/').then(response => response.json())
   .then(console.log);
 }
 getData();
@@ -120,16 +120,18 @@ class App extends React.Component{
   onSubmit = () =>{
     // promise
     this.setState({imageUrl: this.state.input});
-    fetch('http://localhost:3000/imageURL', {
+    fetch('https://guarded-reef-86975.herokuapp.com/imageURL', {
       method: 'post',
-      headers: {'Content-Type' : 'application/json'},
+      headers: {
+        'Content-Type' : 'application/json'
+      },
       body: JSON.stringify({
         input: this.state.input
       })
     }).then(response => response.json())
     .then(response =>{
       if(response){
-        fetch('http://localhost:3000/image', {
+        fetch('https://guarded-reef-86975.herokuapp.com/image', {
           method: 'put',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({
@@ -139,7 +141,7 @@ class App extends React.Component{
         }).then(response => response.json()).then(result => {
           // first param => target object, second param => what we want to extends
           this.setState(Object.assign(this.state.user, {entries: result}))
-        }).catch(err => console.log('err'));
+        }).catch(err => console.log('error'));
       }
        this.displayFaceBox(this.calculateFaceLocation(response));  
     }).catch(err => console.log(err));
