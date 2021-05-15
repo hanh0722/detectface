@@ -1,0 +1,16 @@
+nav{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0% 5%;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+nav p:hover{
+    cursor: pointer;
+}
+nav p{
+    margin: 0px 10px;
+}

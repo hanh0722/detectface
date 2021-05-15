@@ -1,0 +1,13 @@
+.Tilt{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(89deg, #04C8DE 0%, #FF5EDF 100%);
+    margin: 20px;
+    margin-top: 0;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
