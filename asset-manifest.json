@@ -1,25 +1,17 @@
 {
-  "files": {
-    "main.css": "/detectface/static/css/main.8176e50a.chunk.css",
-    "main.js": "/detectface/static/js/main.e09ee259.chunk.js",
-    "main.js.map": "/detectface/static/js/main.e09ee259.chunk.js.map",
-    "runtime-main.js": "/detectface/static/js/runtime-main.2c0f3bf5.js",
-    "runtime-main.js.map": "/detectface/static/js/runtime-main.2c0f3bf5.js.map",
-    "static/css/2.fe359a49.chunk.css": "/detectface/static/css/2.fe359a49.chunk.css",
-    "static/js/2.3c1289a9.chunk.js": "/detectface/static/js/2.3c1289a9.chunk.js",
-    "static/js/2.3c1289a9.chunk.js.map": "/detectface/static/js/2.3c1289a9.chunk.js.map",
-    "static/js/3.30a7eae4.chunk.js": "/detectface/static/js/3.30a7eae4.chunk.js",
-    "static/js/3.30a7eae4.chunk.js.map": "/detectface/static/js/3.30a7eae4.chunk.js.map",
-    "index.html": "/detectface/index.html",
-    "static/css/2.fe359a49.chunk.css.map": "/detectface/static/css/2.fe359a49.chunk.css.map",
-    "static/css/main.8176e50a.chunk.css.map": "/detectface/static/css/main.8176e50a.chunk.css.map",
-    "static/js/2.3c1289a9.chunk.js.LICENSE.txt": "/detectface/static/js/2.3c1289a9.chunk.js.LICENSE.txt"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.2c0f3bf5.js",
-    "static/css/2.fe359a49.chunk.css",
-    "static/js/2.3c1289a9.chunk.js",
-    "static/css/main.8176e50a.chunk.css",
-    "static/js/main.e09ee259.chunk.js"
-  ]
+  "main.css": "/detectface/static/css/main.e84f3587.chunk.css",
+  "main.js": "/detectface/static/js/main.bcb07096.chunk.js",
+  "main.js.map": "/detectface/static/js/main.bcb07096.chunk.js.map",
+  "runtime~main.js": "/detectface/static/js/runtime~main.ed188198.js",
+  "runtime~main.js.map": "/detectface/static/js/runtime~main.ed188198.js.map",
+  "static/css/2.d0eb269f.chunk.css": "/detectface/static/css/2.d0eb269f.chunk.css",
+  "static/js/2.0a12eeca.chunk.js": "/detectface/static/js/2.0a12eeca.chunk.js",
+  "static/js/2.0a12eeca.chunk.js.map": "/detectface/static/js/2.0a12eeca.chunk.js.map",
+  "static/js/3.83c1415e.chunk.js": "/detectface/static/js/3.83c1415e.chunk.js",
+  "static/js/3.83c1415e.chunk.js.map": "/detectface/static/js/3.83c1415e.chunk.js.map",
+  "index.html": "/detectface/index.html",
+  "precache-manifest.8ed1ea0f789a903be619c0a48d2e8100.js": "/detectface/precache-manifest.8ed1ea0f789a903be619c0a48d2e8100.js",
+  "service-worker.js": "/detectface/service-worker.js",
+  "static/css/2.d0eb269f.chunk.css.map": "/detectface/static/css/2.d0eb269f.chunk.css.map",
+  "static/css/main.e84f3587.chunk.css.map": "/detectface/static/css/main.e84f3587.chunk.css.map"
 }
